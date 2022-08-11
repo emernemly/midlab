@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h4 {
+  margin-bottom: 0px !important;
+  display: flex;
+  align-items: center;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+
+  margin: 0;
+}
+section {
+  padding: 92px;
+}

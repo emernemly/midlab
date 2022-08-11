@@ -1,0 +1,97 @@
+.header {
+  .header-top {
+    background-color: #005963;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5px;
+    .contact-header {
+      display: flex;
+      flex-direction: row;
+      .cont {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        color: white;
+        p {
+          display: flex;
+          align-items: center;
+          margin: 0 5px;
+        }
+        svg {
+          fill: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 25px;
+        }
+      }
+    }
+    .icons-contact {
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+      svg {
+        fill: white;
+        font-size: 25px;
+
+        margin: 0 4px;
+      }
+    }
+  }
+  .header-bottom {
+    background-color: rgb(0 89 99 / 37%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    .logo {
+      img {
+        width: 200px;
+      }
+    }
+    .links {
+      button {
+        background: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        margin: 0 12px;
+        cursor: pointer;
+      }
+      button:hover {
+        color: #005963;
+      }
+    }
+    .find {
+      display: flex;
+      align-items: center;
+      svg {
+        font-size: 30px;
+        margin: 0 12px;
+        cursor: pointer;
+        rect {
+          fill: white;
+        }
+      }
+      button {
+        color: white;
+        background-color: #05acb1;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 7px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition-duration: 0.7s;
+      }
+      button:hover {
+        background-color: #005963;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.medlab {
+  background-color: #005963;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  .overly {
+    background-color: transparent;
+    z-index: -1;
+    img {
+      opacity: 0.1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+
+  .medlap-group {
+    z-index: 1;
+    display: flex;
+    .medlab-clinc {
+      width: 50%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 1.2;
+        position: relative;
+      }
+      .system {
+        margin: 12px;
+        display: flex;
+
+        align-items: center;
+        svg {
+          font-size: 50px;
+          margin: 0 12px;
+        }
+
+        .para {
+          margin: 12px;
+          h3 {
+            font-size: 20px;
+            font-weight: 700;
+          }
+          p {
+            margin-top: 12px;
+            color: rgba(255, 255, 255, 0.8);
+          }
+        }
+      }
+    }
+    .medlab-service {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 550px;
+      }
+    }
+  }
+}

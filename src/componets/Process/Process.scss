@@ -1,0 +1,85 @@
+.process {
+  .work {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    .title {
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      flex-direction: column;
+
+      p {
+        display: inline-flex;
+        color: #00acb1;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 1.2;
+        position: relative;
+        color: #005963;
+        margin-top: 20px;
+      }
+    }
+    button {
+      color: white;
+      background-color: #05acb1;
+      font-size: 20px;
+      padding: 20px;
+      border-radius: 7px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition-duration: 0.7s;
+    }
+    button:hover {
+      background-color: #005963;
+    }
+    p {
+      max-width: 300px;
+      color: #888b8b;
+    }
+  }
+  .step {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    .step-card {
+      display: flex;
+      align-items: center;
+      max-width: 400px;
+      .icons {
+        width: fit-content;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+        margin-right: 17px;
+        border-radius: 10px;
+        svg {
+          font-size: 100px;
+          fill: #05acb1;
+          padding: 20px;
+        }
+      }
+      .step-contact {
+        h3 {
+          color: #005963;
+          font-weight: 700;
+          font-size: 1.5rem;
+        }
+        b {
+          color: #05acb1;
+          margin-top: 20px;
+        }
+        p {
+          margin-top: 20px;
+          color: #888b8b;
+        }
+      }
+    }
+  }
+}

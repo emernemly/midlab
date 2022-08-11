@@ -1,0 +1,52 @@
+.teams {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 47px;
+    p {
+      display: inline-flex;
+      color: #00acb1;
+
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 58px;
+      line-height: 1.2;
+      position: relative;
+      color: #005963;
+      margin-top: 20px;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .team {
+    margin-top: -250px;
+    .team-card {
+      width: 270px;
+      background-color: transparent;
+
+      img {
+        width: 270px;
+        height: 300px;
+      }
+      .card-contact {
+        padding: 12px;
+        h3 {
+          color: #005963;
+          font-weight: 700;
+          font-size: 1.5rem;
+        }
+        p {
+          margin-top: 20px;
+          color: #888b8b;
+        }
+      }
+    }
+  }
+}
